@@ -20,7 +20,7 @@ include(CMakePackageConfigHelpers)
 target_include_directories(${PROJECT_NAME}
         PUBLIC
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/${SRC_FOLDER}>
-        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/${SRC_FOLDER}/include>
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/${SRC_FOLDER}/Include>
         )
 
 target_sources(${PROJECT_NAME}
@@ -37,8 +37,8 @@ include_directories(${PROJECT_NAME} PUBLIC ${LIBFTD2XX_INCLUDE_DIR})
 target_link_libraries(${PROJECT_NAME} PUBLIC ${LIBFTD2XX_LIBRARIES})
 
 set(${PROJECT_NAME}_PUBLIC_HEADERS
-        ${SRC_FOLDER}/include/libMPSSE_i2c.h
-        ${SRC_FOLDER}/include/libMPSSE_spi.h
+        ${SRC_FOLDER}/Include/libMPSSE_i2c.h
+        ${SRC_FOLDER}/Include/libMPSSE_spi.h
         )
 
 set_target_properties(${PROJECT_NAME}
