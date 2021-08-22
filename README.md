@@ -2,4 +2,6 @@
 
 Updated library from 2020
 
-Currently only tested with MacOS
+Only tested with MacOS
+
+Intended to be used with CPM: https://github.com/cpm-cmake/CPM.cmake
