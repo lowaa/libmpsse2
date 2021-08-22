@@ -20,7 +20,6 @@ include(CMakePackageConfigHelpers)
 target_include_directories(${PROJECT_NAME}
         PUBLIC
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/${SRC_FOLDER}>
-        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/${SRC_FOLDER}>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/${SRC_FOLDER}/include>
         )
 
