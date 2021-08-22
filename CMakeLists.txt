@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
 
-project(libmpsse)
+project(libmpsse2)
 
 add_definitions(-D__linux__ -D__linux)
 
