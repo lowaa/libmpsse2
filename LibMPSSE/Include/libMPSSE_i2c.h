@@ -34,6 +34,7 @@
 #ifndef LIBMPSSE_I2C_H
 #define LIBMPSSE_I2C_H
 
+#include <stdbool.h>
 #include "ftd2xx.h"
 
 /******************************************************************************/
@@ -106,7 +107,7 @@ typedef signed short int16;
 typedef signed long long int64;
 
 #ifndef __cplusplus
-typedef unsigned char bool;
+//typedef unsigned char bool;
 #endif
 
 #ifdef __x86_64__
