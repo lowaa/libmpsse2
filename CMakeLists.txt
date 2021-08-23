@@ -4,6 +4,11 @@ project(libmpsse2)
 
 add_definitions(-D__linux__ -D__linux)
 
+if(APPLE)
+    # for MacOS X or iOS, watchOS, tvOS (since 3.10.3)
+    add_definitions(-D__apple)
+endif()
+
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 find_package(libftd2xx REQUIRED)
 
