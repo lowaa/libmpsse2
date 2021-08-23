@@ -7,7 +7,7 @@
 
 set -x -e
 
-cp bin/10.5-10.7/libftd2xx.1.2.2.dylib /usr/local/lib/libftd2xx.1.2.2.dylib
-ln -s /usr/local/lib/libftd2xx.1.2.2.dylib /usr/local/lib/libftd2xx.dylib
+cp bin/libftd2xx.1.4.24.dylib /usr/local/lib/libftd2xx.1.4.24.dylib
+ln -s /usr/local/lib/libftd2xx.1.4.24.dylib /usr/local/lib/libftd2xx.dylib
 cp bin/ftd2xx.h /usr/local/include
 cp bin/WinTypes.h /usr/local/include
